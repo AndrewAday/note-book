@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle note-book",
+        "command": "note-book:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "note-book",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "note-book:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
