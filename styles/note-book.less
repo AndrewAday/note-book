@@ -4,5 +4,27 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+.modal {
+  height: 450px;
+  overflow: hidden;
+}
+
 .note-book {
+  .container {
+    img {
+      image-rendering: pixelated;
+    }
+    .qr-code {
+      transform: scale(2,2);
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      margin: 20% auto;
+      margin-bottom: 5%;
+    }
+  }
+  .message {
+    text-align: center;
+    margin: 5%;
+  }
 }
