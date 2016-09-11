@@ -1,10 +1,12 @@
 {
   "name": "note-book",
   "main": "./lib/note-book",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Notebook! A note-taking app that combines Markdown, Latex, and handwritten diagrams",
   "keywords": [
-    "notes", "note-taking", "notebook"
+    "notes",
+    "note-taking",
+    "notebook"
   ],
   "activationCommands": {
     "atom-workspace": "note-book:toggle"
